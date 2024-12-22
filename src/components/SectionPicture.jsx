@@ -1,7 +1,11 @@
 import React from "react";
 
 const SectionPicture = () => {
-    return <div className="section my-10 sm:my-20"></div>;
+    return (
+        <section className=" mx-auto max-w-screen-2xl">
+            <div className="section" style={{ backgroundImage: `url('/group.png')` }}></div>
+        </section>
+    );
 };
 
 export default SectionPicture;

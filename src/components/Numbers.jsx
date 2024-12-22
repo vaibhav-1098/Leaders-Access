@@ -1,6 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import { InView } from "react-intersection-observer"; // Import InView
+import { InView } from "react-intersection-observer";
 
 const Numbers = () => {
     const items = [
