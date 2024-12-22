@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body,html {
+    background-color: #dcdcdc39;
+    overflow-x: hidden !important;
+}
+
+/* footer */
+
+footer {
+    background-color: #0f172a;
+    color: whitesmoke;
+}
+
+.copyright {
+    height: 5rem;
+    margin-top: 1px solid white;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #ffc107, #f44336, #e91e63, #9c27b0);
+}
+
+/* header */
+.bigger-text {
+    font-size: 1.1rem;
+}
+
+.nav-corners {
+    border-radius: 25px 25px 0 0 !important;
+}
+
+/* hero section */
+.hero {
+    padding: 2rem !important;
+}
+
+/* banner */
+.banner {
+    background-color: #5914cc;
+}
+
+.banner-purple {
+    color: #5914cc;
+}
+
+/* form */
+
+input,
+textarea {
+    border: 1px solid gainsboro;
+}
+
+.label {
+    font-size: 0.9rem;
+    margin: 5px;
+}
+
+/* scrolling images */
+
+.scrolling-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.scrolling-images {
+    display: flex;
+    will-change: transform;
+    gap: 6rem;
+}
+
+.scrolling-images img {
+    height: 30px;
+}
+
+/* heading */
+.cursive {
+    font-family: "Playwrite IE Guides", serif;
+    font-style: normal;
+    font-style: italic;
+}
+
+/* section image */
+.section {
+    height: 200px;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
